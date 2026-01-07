@@ -1,0 +1,28 @@
+# Binaries
+/blueMove
+
+# macOS app bundle
+*.app
+
+# Build artifacts
+resources/AppIcon.iconset/
+resources/menubar-icon.png
+resources/menubar-icon@2x.png
+
+# Configuration (keep .conf as example, but ignore user configs)
+# Uncomment if you want to ignore all config files:
+# *.conf
+
+# Go build cache
+*.test
+*.out
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+.cursor/
+
+# Logs
+*.log
+
