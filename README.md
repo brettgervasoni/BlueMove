@@ -70,7 +70,14 @@ go build ./cmd/blueMove
 
 ## Installation
 
-### Install the App Bundle (Recommended)
+### Install Using Release Build
+
+- Download BlueMove.app.zip
+- Unzip
+- Drag BlueMove.app to /Applications
+- Right-click → Open (first launch)
+
+### Install the App Bundle by Building Yourself
 
 1. Build the app:
    ```bash
@@ -82,9 +89,13 @@ go build ./cmd/blueMove
    cp -r blueMove.app /Applications/
    ```
 
-3. Launch from Applications or Spotlight
+### Initial Configuration
 
-4. (Optional) Add to Login Items for automatic startup:
+1. Review INSTALLATION.md to get up and going with your configuration files.
+
+2. Launch from Applications or Spotlight
+
+3. (Optional) Add to Login Items for automatic startup:
    - Open **System Settings** > **General** > **Login Items**
    - Click the **+** button and add **blueMove.app**
 
