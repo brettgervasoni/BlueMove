@@ -121,4 +121,6 @@ bash scripts/create-icns.sh
 - UI implemented with [systray](https://github.com/getlantern/systray). Notifications via [beeep](https://github.com/gen2brain/beeep)
 - App bundle configuration includes `LSUIElement=true` in Info.plist to run as a menu bar-only app (no dock icon)
 
+## Author
 
+Brett Gervasoni
